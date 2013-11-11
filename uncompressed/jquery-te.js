@@ -96,14 +96,16 @@
 			
 			// events
 			'change'		: "",
+			'sourceChange'	: "",
 			'focus'			: "",
 			'blur'			: ""
 		}, options);
 		
 		// methods
-		$.fn.jqteVal = function(value){
-			$(this).closest("."+vars.css).find("."+vars.css+"_editor").html(value);
-		}
+		$.fn.jqteVal = function(value)
+		{
+			$(this).closest("." + vars.css).find("." + vars.css + "_editor").html(value);
+		};
 		
 		// browser information is received
 		var thisBrowser = navigator.userAgent.toLowerCase();
@@ -991,6 +993,10 @@
 				var sourceStrings = editor.text()=="" && editor.html().length<12 ? "" : editor.html();
 				
 				thisElement.val(extractToText(sourceStrings));
+				
+				// if the change method is added run the change method   
+				if ($.isFunction(vars.sourceChange))
+					vars.sourceChange();
 			}
 
 			// the function of exporting contents of the source field to the text field (to be the standard in all browsers)
