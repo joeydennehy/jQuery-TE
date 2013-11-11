@@ -71,7 +71,7 @@
 	height:4px;
 	background-position:-19px -23px;
 	border:none;
-	border-radius:none; -webkit-border-radius:none; -moz-border-radius:none
+	border-radius:0; -webkit-border-radius:none; -moz-border-radius:none
 }
 .jqte_tool.jqte_tool_2 .jqte_tool_icon {
 	background-position:0 0
@@ -248,7 +248,7 @@
 	display:none;
 	position:absolute;
 	width:180px;
-	oveflow-x:hidden;
+	overflow-x:hidden;
 	overflow-y:auto;
 	background:#FFF;
 	border:#AAA 1px solid;
@@ -294,7 +294,7 @@
 	position:absolute;
 	width:180px;
 	height:198px;
-	oveflow-x:hidden;
+	overflow-x:hidden;
 	overflow-y:auto;
 	background:#FFF;
 	border:#AAA 1px solid;
@@ -408,7 +408,6 @@
 	resize:none;
 }
 .jqte_source textarea, .jqte_source textarea:focus {
-	css_shadow:none !important;
 	background:none !important;
 	border:none !important;
 }
