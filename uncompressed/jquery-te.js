@@ -692,6 +692,9 @@
 				// hide the link-form-field
 				linkAreaSwitch();
 				
+				// update link target to _blank
+				editor.find("a").attr("target", "_blank");
+				
 				// export contents of the text to the sources
 				editor.trigger("change");
 			}
