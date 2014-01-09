@@ -298,7 +298,8 @@
 	overflow-y:auto;
 	background:#FFF;
 	border:#AAA 1px solid;
-	box-shadow:0 0 5px #AAA; -webkit-box-shadow:0 0 5px #AAA; -moz-box-shadow:0 0 5px #AAA
+	box-shadow:0 0 5px #AAA; -webkit-box-shadow:0 0 5px #AAA;-moz-box-shadow: 0 0 5px #AAA;
+	z-index:100;
 }
 .jqte_fontsize {
 	display:block;
