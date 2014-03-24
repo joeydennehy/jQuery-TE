@@ -71,7 +71,7 @@
 	height:4px;
 	background-position:-19px -23px;
 	border:none;
-	border-radius:0; -webkit-border-radius:none; -moz-border-radius:none
+	border-radius:0; -webkit-border-radius:0; -moz-border-radius:0
 }
 .jqte_tool.jqte_tool_2 .jqte_tool_icon {
 	background-position:0 0
