@@ -39,7 +39,7 @@
 		var formats = [["p","Normal"],["h1","Header 1"],["h2","Header 2"],["h3","Header 3"],["h4","Header 4"],["h5","Header 5"],["h6","Header 6"],["pre","Preformatted"]];
 		
 		// default font sizes
-		var fsizes = ["10","12","16","18","20","24","28"];
+		var fsizes = ["10","12","14","16","18","20","24","28"];
 		
 		// default rgb values of colors
 		var colors = [
